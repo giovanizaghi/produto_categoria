@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace API_Citel.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
     public class CategoriaController : ControllerBase
     {
