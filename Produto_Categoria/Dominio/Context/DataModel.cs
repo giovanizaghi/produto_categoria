@@ -28,6 +28,7 @@ namespace Dominio.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+          
             modelBuilder.Entity<Categoria>(entity =>
             {
                 entity.HasKey(e => e.Id)
